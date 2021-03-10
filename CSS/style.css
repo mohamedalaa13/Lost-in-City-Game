@@ -1,0 +1,55 @@
+#canvas{
+	/* min-height: 100vh;
+	right: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center; */
+    background-color: rgb(255,255,230);
+	box-shadow: 25px 45px 50px black;
+	border-radius: 5%;  
+}
+body{
+	margin-right: 200px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:gray ;
+	text-align: center;
+	 overflow: hidden;
+}
+.title{
+	margin-top: 0px;
+	font-size: 100px;
+	color:#FDFEFE;
+	font-family: 'Chicle', cursive;
+}
+
+.scoreBoard{
+	/* top: 1px; */
+	font-size: 35px;
+	color:#FDFEFE ;
+	font-family: 'Chicle', cursive;
+	position: absolute;
+}
+
+h3{
+	display: block;
+	margin-right: 1050px;
+	  color: white;
+}
+#back{
+    margin-bottom: 400px;
+	margin-right: 100px;
+}
+#back:hover{
+	transform: scale(1.2);
+}
+img{
+	width:35px;
+}
+
+img:hover{
+	width:37px;
+	margin-left:-2px;
+}

@@ -1,0 +1,45 @@
+<html><head>
+	<title>Main menu</title>
+	<link href="CSS/new.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-image"></div>
+
+    <div id="back">
+        <a href="home.html"><img src="images/back5.png" ></a>
+    </div>
+
+    <div id="player-selection">
+        <h2 id="chars-title">Select your Character</h2>
+        <button class="chars" onclick="selectChar('char1')"><img src="images/ch1.png" alt="boy character">
+            <span class="char-names"><br><em>Rhino</em>
+            </span>
+        </button>
+        <button class="chars" onclick="selectChar('char2')" ><img src="images/ch2.png" alt="cat girl character">
+            <span class="char-names"><br><em>Lumiere</em>
+            </span>
+        </button>
+        <button class="chars" onclick="selectChar('char3')"><img src="images/ch3.png" style="height: 80px;" alt="horn girl character">
+            <span class="char-names"><br><em>Pinky</em>
+            </span>
+        </button>
+        <button class="chars" onclick="selectChar('char4')" ><img src="images/ch4.png" style="height: 80px;" alt="pink girl character">
+            <span class="char-names"><br><em>Charl</em>
+            </span>
+        </button>
+        <button class="chars" onclick="selectChar('char5')" ><img src="images/ch5.png" style="height: 80px;" alt="princess girl character">
+            <span class="char-names"><br><em>Toad</em>
+            </span>
+        </button>
+        <div id="levelbtn">
+            <h4 id="selection">Your Character is : <div id="player-selected"></div></h4>
+            <button onclick="easyGame()" class="easy-game">Easy</button>
+            <button onclick="medGame()" class="med-game">Medium</button>
+            <button onclick="hardGame()" class="hard-game">Hard</button>
+        </div>
+
+    </div>
+      
+    <script src="JS/game.js"></script>
+    </body>
+    </html>
